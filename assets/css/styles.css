@@ -542,5 +542,69 @@
   .service_grid_btm_left2 h5 {
     font-size: 22px; } }
 
-      
-  
+/*-- quote --*/
+.w3l-quote-main .quote {
+  background: url(../images/g5.jpg) 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+
+.w3l-quote-main .quote:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); }
+
+.w3l-quote-main .quote h4 {
+  font-size: 33px;
+  color: #eee;
+  line-height: 42px;
+  font-weight: 700; }
+
+.w3l-quote-main .quote img {
+  background: #fff;
+  border-radius: 50%;
+  width: 120px; }
+
+.w3l-quote-main .quote h5 {
+  text-transform: capitalize;
+  color: #ccc;
+  font-size: 20px; }
+
+.w3l-quote-main .quote h6 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700; }
+
+@media (max-width: 1024px) {
+  .w3l-quote-main .quote h4 {
+    font-size: 28px;
+    line-height: 35px; } }
+
+@media (max-width: 992px) {
+  .w3l-quote-main .tablet-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 30px; }
+  .w3l-quote-main .tablet-grid img {
+    width: 100px; }
+  .w3l-quote-main .quote h6 {
+    margin-top: 0px; } }
+
+@media (max-width: 737px) {
+  .w3l-quote-main .quote h4 {
+    font-size: 25px;
+    line-height: 33px; } }
+
+@media (max-width: 400px) {
+  .w3l-quote-main .quote h4 {
+    font-size: 23px;
+    line-height: 30px; }
+  .w3l-quote-main .tablet-grid {
+    grid-gap: 20px; } }
+
+/*-- quote --*/
