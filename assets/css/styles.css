@@ -100,6 +100,11 @@
     line-height: 50px;
     font-weight: 700;
     color: var(--heading); }
+
+  .navbar-dark .navbar-brand {
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--primary); }
   
   @media (max-width: 992px) {
     h3.main-title-w3 {
@@ -124,16 +129,13 @@
   @media (max-width: 384px) {
     h3.main-title-w3 {
       font-size: 28px;
-      line-height: 33px; } }
-  
+      line-height: 33px; }
+    .navbar-dark .navbar-brand {
+      font-size: 31px; } }
+
   li.active a.nav-link {
     padding-right: 0;
     padding-left: 0; }
-  
-  .navbar-dark .navbar-brand {
-    font-size: 35px;
-    font-weight: 700;
-    color: var(--primary); }
   
   .navbar-dark .navbar-brand:hover {
     color: var(--primary); }
@@ -329,6 +331,10 @@
 
   /*--/content with photo5--*/
 
+  .w3l-content-photo-5 {
+    background-color: #f8f9fa;
+    margin-top: -6px;
+  }
   .btn-primary:hover {
     color: #fff;
     background-color: #00b063;
@@ -398,5 +404,143 @@
     opacity: .8;
     transition: all 20.5s ease-out 20s;
     background-color: var(--primary); }
+
+  /*-- //services --*/
+/*-- w3l-services-block --*/
+.z-index-3 {
+  z-index: 3;
+}
+
+.w3l-services-block {
+  background: #f8f9fa; }
+
+.w3l-services-block h3 {
+  color: #fff; }
+
+.w3_head {
+  text-align: center;
+  color: var(--heading);
+  margin: 0 0 1em;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-transform: capitalize; }
+
+.agileits_w3l-services-block_grids {
+  margin: 0em 0 3em; }
+
+.agileits_w3l-services-block_grid {
+  padding: 2em;
+  border: 1px solid #999;
+  border-left: 3px solid #999;
+  text-align: left;
+  border-right: none;
+  background: #fff;
+  transition: .5s ease-in;
+  -webkit-transition: .5s ease-in;
+  -moz-transition: .5s ease-in;
+  -o-transition: .5s ease-in;
+  -ms-transition: .5s ease-in; }
+
+.agileits_w3l-services-block_grid h5 {
+  font-size: 1.5em;
+  color: #000;
+  margin: 0em 0 .5em;
+  transition: .5s ease-in;
+  -webkit-transition: .5s ease-in;
+  -moz-transition: .5s ease-in;
+  -o-transition: .5s ease-in;
+  -ms-transition: .5s ease-in; }
+
+.agileits_w3l-services-block_grid p {
+  color: var(--para);
+  line-height: 2em;
+  font-size: 16px; }
+
+.service_grid_btm_left1 {
+  transition: all 300ms ease-in-out;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.service_grid_btm_left1:before {
+  bottom: 0;
+  right: 0;
+  border-bottom: 2px solid var(--primary);
+  border-right: 2px solid var(--primary); }
+
+.service_grid_btm_left1:after, .service_grid_btm_left1:before {
+  content: '';
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  position: absolute;
+  transition: all 800ms ease-in-out;
+  border-radius: 8px; }
+
+.service_grid_btm_left1:after {
+  top: 0;
+  left: 0;
+  border-top: 2px solid var(--primary);
+  border-left: 2px solid var(--primary); }
+
+.service_grid_btm_left1:hover:after, .service_grid_btm_left1:hover:before {
+  width: 100%;
+  height: 100%;
+  visibility: visible; }
+
+.service_grid_btm_left2 h5 {
+  margin: 0em 0 .5em;
+  color: var(--heading);
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  -moz-transition: .5s all;
+  -ms-transition: .5s all; }
+
+.service_grid_btm_left2 p {
+  color: var(--para);
+  font-size: 17px;
+  line-height: 26px;
+  margin: 0; }
+
+.service_grid_btm_left2 {
+  padding: 2em 1em;
+  border: none;
+  background: #fff;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px; }
+
+.service_grid_btm_left1:hover {
+  cursor: default; }
+
+.service_grid_btm_left img {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px; }
+
+.service_grid_btm_left1:hover .service_grid_btm_left2 i {
+  color: var(--primary);
+  border-color: #252525;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  -moz-transition: .5s all;
+  -ms-transition: .5s all; }
+
+.service_grid_btm_left2 span.fa {
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: var(--primary); }
+
+@media (max-width: 1024px) {
+  .service_grid_btm_left2 h5 {
+    font-size: 22px; } }
+
       
   
