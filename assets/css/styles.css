@@ -790,3 +790,9 @@ section.w3l-grid-quote h3 {
     .w3l-footers-1 .grid-columns-2 {
       grid-template-columns: 1fr;
       grid-row-gap: 20px; } }
+
+    .list-group-item {
+      border: 1px solid rgb(138 138 138 / 13%);
+      background: transparent;
+      color: aliceblue;
+  }
