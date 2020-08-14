@@ -49,13 +49,13 @@
   select {
     -webkit-appearance: none;
     outline: none;
-    font-family: 'Nunito', sans-serif; }
+    font-family: 'Bitter', serif; }
   
   button,
   .btn,
   select {
     cursor: pointer;
-    font-family: 'Nunito', sans-serif; }
+    font-family: 'Bitter', serif; }
   
   a,
   a:hover {
@@ -70,7 +70,7 @@
   p,
   a,
   li {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Bitter', serif;
     margin: 0; }
   h1 {
     color: #00d679;
@@ -86,7 +86,7 @@
   input,
   textarea,
   button {
-    font-family: 'Nunito', sans-serif !important; }
+    font-family: 'Bitter', serif; }
   
   img {
     border-radius: 8px; }
@@ -139,7 +139,7 @@
       font-size: 28px;
       line-height: 33px; }
     .navbar-dark .navbar-brand {
-      font-size: 31px; } }
+      font-size: 24px; } }
 
   li.active a.nav-link {
     padding-right: 0;
@@ -355,7 +355,7 @@
   /*--/content with photo5--*/
 
   .w3l-content-photo-5 {
-    background-color: #161a1f;
+    background-color: #0d0d0e;
     margin-top: -6px;
   }
   .btn-primary:hover {
@@ -435,13 +435,14 @@
 }
 
 .w3l-services-block {
-  background: #f8f9fa; }
+  background: #010101; }
 
 .w3l-services-block h3 {
   color: #fff; }
 
 h2.my-3 {
     text-align: center;
+    color: aliceblue;
 }
 
 .w3_head {
@@ -518,7 +519,7 @@ h2.my-3 {
 
 .service_grid_btm_left2 h5 {
   margin: 0em 0 .5em;
-  color: var(--heading);
+  color: #00d679;
   font-size: 25px;
   line-height: 30px;
   font-weight: 700;
@@ -538,7 +539,7 @@ h2.my-3 {
 .service_grid_btm_left2 {
   padding: 2em 1em;
   border: none;
-  background: #fff;
+  background: #161a1f;
   text-align: center;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px; }
@@ -665,17 +666,19 @@ section.w3l-grid-quote h3 {
     font-size: 1.8em; } }
 
 /*-- mid --*/
-
+.w3l-open-block-services.py-5 {
+  background-color: #010101;
+}
 
 .w3l-open-block-services h4.mission {
-  color: var(--heading);
+  color: var(--bg-light);
   font-size: 22px;
   line-height: 28px;
   font-weight: 700;
   margin-top: 25px; }
 
 .w3l-open-block-services h3.head-title {
-  color: var(--heading);
+  color: var(--bg-light);
   font-size: 40px;
   line-height: 45px;
   font-weight: 700;
