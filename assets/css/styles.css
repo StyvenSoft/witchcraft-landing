@@ -72,6 +72,10 @@
   li {
     font-family: 'Nunito', sans-serif;
     margin: 0; }
+  h1 {
+    color: #00d679;
+    margin-bottom: 1rem;
+  }
   
   p {
     font-size: 17px;
@@ -264,7 +268,13 @@
   .main-banner {
     position: relative; }
 
+    .navbar-brand span {
+      color: aliceblue;
+  }
 
+  .fa-whatsapp {
+    font-size: 25px;
+  }
 
     .main-banner h3.banner-text {
         font-weight: 700;
@@ -430,6 +440,10 @@
 .w3l-services-block h3 {
   color: #fff; }
 
+h2.mb-3 {
+    text-align: center;
+}
+
 .w3_head {
   text-align: center;
   color: var(--heading);
@@ -575,7 +589,8 @@
   font-size: 33px;
   color: #eee;
   line-height: 42px;
-  font-weight: 700; }
+  font-weight: 700;
+  text-align: center; }
 
 .w3l-quote-main .quote img {
   background: #fff;
@@ -739,3 +754,39 @@ section.w3l-grid-quote h3 {
   .w3l-open-block-services h3.head-title {
     font-size: 35px;
     line-height: 40px; } }
+
+  .w3l-footers-1 .d-grid {
+    display: grid; }
+  .w3l-footers-1 .grid-columns-2 {
+    grid-template-columns: 2.5fr 1fr;
+    grid-column-gap: 20px; }
+  .w3l-footers-1 .align-right {
+    text-align: right; }
+  .w3l-footers-1 .footer {
+    position: relative;
+    background-color: var(--secondary);
+    height: 6rem; }
+  .w3l-footers-1 .footer-left p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #aaa; }
+  .w3l-footers-1 .footer-left p a {
+    color: #ccc; }
+  
+  @media (max-width: 992px) {
+    .w3l-footers-1 .footer-content {
+      text-align: center; } }
+  @media (max-width: 737px) {
+    .w3l-footers-1 ul.social li {
+      margin-left: 0px;
+      margin: 0 7px; } }
+  @media (max-width: 480px) {
+    .w3l-footers-1 .footer-right {
+      margin-top: 5px; } }
+  @media (max-width: 415px) {
+    .w3l-footers-1 .footer-left,
+    .w3l-footers-1 .footer-right {
+      text-align: center; }
+    .w3l-footers-1 .grid-columns-2 {
+      grid-template-columns: 1fr;
+      grid-row-gap: 20px; } }
