@@ -266,12 +266,7 @@
         <div class="footer-content my-4">
           <div class="row">
             <div class="col-lg-8 footer-left">
-              <p class="m-0">&copy; 
-                <script>
-                  var f = new Date();
-                  document.write(f.getFullYear());
-                </script>
-                   Maestra Altagracia. Todos los derechos reservados </p>
+              <p class="m-0">&copy; <span id="year"></span> Maestra Altagracia. Todos los derechos reservados </p>
             </div>
           </div>
         </div>
@@ -304,12 +299,16 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
+
+    let currentDate = new Date();
+    actual = currentDate.getFullYear();
+    document.getElementById('year').innerHTML = actual;
   </script>
   <!-- /move top -->
 
   <!-- jQuery-Photo-filter-lightbox-portfolio-plugin -->
-  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="assets/js/jquery.quicksand.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
 
   <!-- //jQuery-Photo-filter-lightbox-portfolio-plugin -->
 
